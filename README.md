@@ -41,36 +41,43 @@ The **LPC2148**, developed by NXP Semiconductors (Philips), is a 16/32-bit ARM7-
 ### 🧭 **Procedure**
 
 1. Open **STM32CubeIDE**.
-   <img width="1050" height="591" alt="image" src="https://github.com/user-attachments/assets/109135f6-e6f9-46f8-86e1-ecafa6170b01" />
+  ![WhatsApp Image 2025-11-08 at 09 16 45_21b2dbfc](https://github.com/user-attachments/assets/279bd9bd-ba77-4bc3-a443-8555f02ad6c8)
+
 
 2. Click **File → New STM32 Project**.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/a5799efb-57e1-42b8-ba46-b09f32d86fcb" />
-<img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/edf33429-8eea-4857-a991-c2d7706fc787" />
+  ![WhatsApp Image 2025-11-08 at 09 17 27_4988239b](https://github.com/user-attachments/assets/3382610a-fdf7-41fb-a02c-e03dbec71ca8)
+![WhatsApp Image 2025-11-08 at 09 22 58_4b54eace](https://github.com/user-attachments/assets/b318be6b-4294-417e-b741-19872e68cc81)
+
 
 3. Select the **target microcontroller** or board and click **Next**.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/f93d88b6-cd7f-49db-84de-351f9b116488" />
-
+  ![WhatsApp Image 2025-11-08 at 20 23 19_73577344](https://github.com/user-attachments/assets/a699ee50-4999-4924-b5bd-11d6cf5437c2)
 
 
 4. Name the project.
-   <img width="533" height="588" alt="image" src="https://github.com/user-attachments/assets/63de2bab-69d4-4cb9-8db6-1b57adff9878" />
+
+![WhatsApp Image 2025-11-08 at 20 24 26_b19b5120](https://github.com/user-attachments/assets/869ebc61-0f0a-481b-9183-ce4cf5ca5b65)
 
 5. The corresponding `.ioc` file will be generated automatically.
-  <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/8900847c-6745-43e2-9ecf-2e66877fdc49" />
+ <img width="1919" height="1198" alt="image" src="https://github.com/user-attachments/assets/d059be5b-d153-4504-8a11-d330a0b21ef4" />
 
 6. Configure the pins as **GPIO (Input/Output)**, **USART**, etc. as needed.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/acc4f1c4-5e33-431b-8a76-3b102016baa6" />
-<img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/b7abcd80-797d-451f-a7c3-23f303822423" />
+  ![WhatsApp Image 2025-11-08 at 20 31 08_1b8fb7b8](https://github.com/user-attachments/assets/e67ca35a-da02-42d9-94b9-824d2fbb152c)
+
+![WhatsApp Image 2025-11-08 at 20 32 03_f63f026c](https://github.com/user-attachments/assets/7862a871-1420-4268-86d3-ac53125686de)
+
 
 7. Save the configuration (`Ctrl + S`) – the base C program will be generated automatically.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/dbf4b205-5db9-4e9b-8150-94f441c8b116" />
- 
+   
+ <img width="1919" height="1113" alt="image" src="https://github.com/user-attachments/assets/d3b1bd03-8785-4aa0-a5f0-2e080b85e2b0" />
+
 8. Edit the generated main program as required.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/05b39060-35d6-420d-9f4d-8721439bd82f" />
-<img width="1104" height="621" alt="image" src="https://github.com/user-attachments/assets/2ec55709-a45f-4e6e-8738-6aa94138eab1" />
+  <img width="1919" height="1149" alt="image" src="https://github.com/user-attachments/assets/966dbbf8-a8eb-40a2-ba64-c1ca411116db" />
+
+<img width="1919" height="1110" alt="image" src="https://github.com/user-attachments/assets/f4062c98-59c4-4487-87dc-fdc4eafa0768" />
 
 9. Click **Project → Build All**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/264cd0a8-3e96-4668-822e-838ecfafc527" />
+    <img width="1914" height="1106" alt="image" src="https://github.com/user-attachments/assets/11aeae78-41b5-415f-9f58-5607798a38d9" />
+
 
 10. Link the **HEX file** using the post-build process.
     <img width="1053" height="465" alt="image" src="https://github.com/user-attachments/assets/478187a0-0ee6-4c50-9cac-c3b5ee18521b" />
